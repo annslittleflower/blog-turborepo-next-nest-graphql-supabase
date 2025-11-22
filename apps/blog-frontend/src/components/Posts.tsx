@@ -1,5 +1,5 @@
 import { Post } from "@/lib/types/modelTypes";
-import PostCard from "./postCard";
+import PostCard from "./PostCard";
 import Pagination from "./pagination";
 
 type Props = {

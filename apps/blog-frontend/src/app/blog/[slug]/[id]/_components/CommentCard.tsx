@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/Avatar";
 import { CommentEntity } from "@/lib/types/modelTypes";
 import { UserIcon } from "@heroicons/react/20/solid";
 

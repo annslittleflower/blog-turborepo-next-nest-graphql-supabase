@@ -1,6 +1,6 @@
 import Link from "next/link";
-import SignInForm from "./_components/signInForm";
-import { Button } from "@/components/ui/button";
+import SignInForm from "./_components/SigninForm";
+import { Button } from "@/components/ui/Button";
 import { BACKEND_URL } from "@/lib/constants";
 
 const SignInPage = () => {

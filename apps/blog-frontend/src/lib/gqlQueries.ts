@@ -1,5 +1,3 @@
-import { skip } from "node:test";
-import { CommentEntity } from "./../../../api/src/comment/entities/comment.entity";
 import gql from "graphql-tag";
 
 export const GET_POSTS = gql`

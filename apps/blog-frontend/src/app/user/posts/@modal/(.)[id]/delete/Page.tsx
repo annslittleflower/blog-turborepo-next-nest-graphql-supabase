@@ -8,8 +8,8 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
-import { Button } from "@/components/ui/button";
+} from "@/components/ui/AlertDialog";
+import { Button } from "@/components/ui/Button";
 import { deletePost } from "@/lib/actions/postActions";
 import { AlertDialogAction } from "@radix-ui/react-alert-dialog";
 import Link from "next/link";

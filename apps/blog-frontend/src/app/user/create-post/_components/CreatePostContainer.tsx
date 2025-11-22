@@ -2,7 +2,7 @@
 
 import { saveNewPost } from "@/lib/actions/postActions";
 import { useActionState } from "react";
-import UpsertPostForm from "./upsertPostForm";
+import UpsertPostForm from "./UpsertPostForm";
 
 const CreatePostContainer = () => {
   const [state, action] = useActionState(saveNewPost, undefined);

@@ -1,6 +1,5 @@
 "use server";
 
-import { object } from "zod";
 import { SignUpFormState } from "../types/formState";
 import { SignUpFormSchema } from "../zodSchemas/signUpFormSchema";
 import { fetchGraphQL } from "../fetchGraphQL";
@@ -35,6 +34,7 @@ export async function signUp(
       data: Object.fromEntries(formData.entries()),
       message: "Something went wrong",
     };
+
   redirect("/auth/signin");
 }
 

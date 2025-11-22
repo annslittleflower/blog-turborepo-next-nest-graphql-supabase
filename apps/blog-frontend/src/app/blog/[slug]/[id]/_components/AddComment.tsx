@@ -1,12 +1,12 @@
 import SubmitButton from "@/components/SubmitButton";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import {
   DialogContent,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
+} from "@/components/ui/Dialog";
+import { Label } from "@/components/ui/Label";
+import { Textarea } from "@/components/ui/Textarea";
 import { useToast } from "@/hooks/use-toast";
 import { saveComment } from "@/lib/actions/commentActions";
 import { SessionUser } from "@/lib/session";

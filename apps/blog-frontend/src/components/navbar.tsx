@@ -1,6 +1,6 @@
 import { getSession } from "@/lib/session";
 import Link from "next/link";
-import SignInPanel from "./signInPanel";
+import SignInPanel from "./SigninPanel";
 import Profile from "./Profile";
 
 type Props = {};

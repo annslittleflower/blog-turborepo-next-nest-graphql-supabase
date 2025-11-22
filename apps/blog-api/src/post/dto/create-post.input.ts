@@ -3,6 +3,11 @@ import { IsBoolean, IsOptional, IsString } from 'class-validator';
 
 @InputType()
 export class CreatePostInput {
+
+  @IsString()
+  @Field({ nullable: true })
+  postId: number;
+
   @IsString()
   @Field()
   title: string;

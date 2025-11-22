@@ -102,11 +102,9 @@ export async function updatePost(
       errors: validatedFields.error.flatten().fieldErrors,
     };
 
-  // Todo: check if thumbnail has been changed
   const { thumbnail, ...inputs } = validatedFields.data;
 
   let thumbnailUrl = "";
-  // Todo:Upload Thumbnail to supabase
   if (thumbnail) thumbnailUrl = await uploadThumbnail(thumbnail);
 
   const data = await authFetchGraphQL(print(UPDATE_POST_MUTATION), {

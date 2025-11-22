@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { PencilSquareIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
 

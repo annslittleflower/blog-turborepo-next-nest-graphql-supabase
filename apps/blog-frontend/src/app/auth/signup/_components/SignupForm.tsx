@@ -1,8 +1,8 @@
 "use client";
 
 import SubmitButton from "@/components/SubmitButton";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/Input";
+import { Label } from "@/components/ui/Label";
 import { signUp } from "@/lib/actions/auth";
 import { useActionState } from "react";
 

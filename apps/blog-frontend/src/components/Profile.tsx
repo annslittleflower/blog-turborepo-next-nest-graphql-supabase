@@ -1,8 +1,8 @@
 import { SessionUser } from "@/lib/session";
 import { Popover } from "@radix-ui/react-popover";
-import { PopoverContent, PopoverTrigger } from "./ui/popover";
+import { PopoverContent, PopoverTrigger } from "./ui/Popover";
 import { Avatar } from "@radix-ui/react-avatar";
-import { AvatarFallback, AvatarImage } from "./ui/avatar";
+import { AvatarFallback, AvatarImage } from "./ui/Avatar";
 import {
   ArrowRightStartOnRectangleIcon,
   ListBulletIcon,
